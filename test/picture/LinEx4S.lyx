@@ -1,0 +1,1589 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language hebrew
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 1.5cm
+\rightmargin 2cm
+\bottommargin 5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "C:\\Users\\avrey\\AppData\\Roaming\\LyX2.3\\templates\\macro.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+תרגיל
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ליניארית
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Author
+אברהם אסרף
+\family roman
+\series medium
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+315774570
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+א.
+ תהי 
+\begin_inset Formula $\mat Ann$
+\end_inset
+
+ מטריצה 
+\begin_inset Formula $k\in\mathbb{F}$
+\end_inset
+
+, נניח כי הסכום של כל שורה ב
+\begin_inset Formula $A$
+\end_inset
+
+ שווה ל 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ הוכיחו כי 
+\begin_inset Formula $k$
+\end_inset
+
+ הוא ערך עצמי של 
+\begin_inset Formula $f_{A}:\mathbb{F}^{n}\to\mathbb{F}^{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $v=\begin{pmatrix}1\\
+\vdots\\
+1
+\end{pmatrix}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+f_{A}\left(v\right)=Av=\begin{pmatrix}k\\
+\vdots\\
+k
+\end{pmatrix}=\begin{pmatrix}1\\
+\vdots\\
+1
+\end{pmatrix}k
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+ב.
+ תהי 
+\begin_inset Formula $\mat Ann$
+\end_inset
+
+ מטריצה, 
+\begin_inset Formula $\lambda\in\mathbb{F}$
+\end_inset
+
+ סקלר.
+ הוכיחו כי 
+\begin_inset Formula $V_{\lambda}$
+\end_inset
+
+ הוא תת מרחב של 
+\begin_inset Formula $\mathbb{F}^{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $w,u\in V_{\lambda}$
+\end_inset
+
+ כך ש
+\begin_inset Formula $w=av,u=bv$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & f_{A}\left(w+u\right)\\
+= & f_{A}\left(w\right)+f_{A}\left(u\right)\\
+= & f_{A}\left(av\right)+f_{A}\left(bv\right)\\
+= & a\cdot f_{A}\left(v\right)+b\cdot f_{A}\left(v\right)\\
+= & a\lambda v+b\lambda v\\
+= & \lambda\left(a+b\right)v\in\sp v
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $a\in\mathbb{F}$
+\end_inset
+
+ 
+\begin_inset Formula $av\in\sp v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $a=0$
+\end_inset
+
+ 
+\begin_inset Formula $av=0\in\sp v$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+ג.
+ יהי 
+\begin_inset Formula $f:V\to V$
+\end_inset
+
+ אופרטור ליניארי, ויהי 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ וקטור עצמי של 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ הוכיחו כי לעל 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $v$
+\end_inset
+
+ וקטור עצמי של 
+\begin_inset Formula $f^{k}$
+\end_inset
+
+.
+ בנוסף ציינו לאיזה ערך עצמי הוא שייך.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\lambda\in\mathbb{F}$
+\end_inset
+
+ ערך עצמי של 
+\begin_inset Formula $f$
+\end_inset
+
+ עבורו 
+\begin_inset Formula $f\left(v\right)=\lambda v$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מכיון ש
+\begin_inset Formula $f$
+\end_inset
+
+ ליניארית 
+\begin_inset Formula 
+\[
+f\left(\lambda v\right)=\lambda f\left(v\right)=\lambda^{2}\left(v\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אזי 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & f^{k}\left(v\right)\\
+= & f_{1}\circ...\circ f_{k}\left(v\right)\\
+= & f_{1}\left(...f_{k}\left(v\right)\right)\\
+= & f_{1}\left(...f_{k-1}\left(\lambda v\right)\right)\\
+= & f_{1}\left(...f_{k-2}\left(\lambda^{2}v\right)\right)
+\end{align*}
+
+\end_inset
+
+ ולכן ניתן להסיק 
+\begin_inset Formula 
+\[
+f^{k}\left(v\right)=\lambda^{k}\cdot v
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+ד.
+ יהי 
+\begin_inset Formula $f$
+\end_inset
+
+ אופרטור של 
+\begin_inset Formula $V$
+\end_inset
+
+ ממימד 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ נניח כי קיימים 
+\begin_inset Formula $n$
+\end_inset
+
+ ערכים עצמיים שונים של 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ הוכיחו כי קיים בסיס של 
+\begin_inset Formula $V$
+\end_inset
+
+המורכב רק מוקטורים עצמיים של 
+\begin_inset Formula $f$
+\end_inset
+
+.
+ עבור בסיס 
+\begin_inset Formula $\beta$
+\end_inset
+
+ כזה איך ניראת המטירצה 
+\begin_inset Formula $\left[f\right]_{\beta}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+נסמן את הערכים העצמיים השונים ב
+\begin_inset Formula $\left(\lambda_{1}...,\lambda_{n}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+נסמן את התתי מרחבים העצמיים שלהם 
+\begin_inset Formula $V_{1}...,V_{n}$
+\end_inset
+
+, בכל אחד מהם קיים וקטור 
+\begin_inset Formula $v_{i}\ne0,v_{i}\in V_{i}$
+\end_inset
+
+ המקיים 
+\begin_inset Formula $f\left(v_{i}\right)=\lambda_{i}v_{i}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in\left[n\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן את הסדרה 
+\begin_inset Formula $\beta=\left(v_{1}...,v_{n}\right)$
+\end_inset
+
+,לפי טענה מהשיעור הסדרה 
+\begin_inset Formula $\beta$
+\end_inset
+
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ל.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי מה שלמדנו בליניארית 
+\begin_inset Formula $1$
+\end_inset
+
+ קבוצה בת
+\begin_inset Quotes erd
+\end_inset
+
+ל בגודל המימד מהווה בסיס.
+ 
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $v_{i}\in\beta$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\left[f\left(v_{i}\right)\right]_{\beta}=\left[\lambda_{i}v_{i}\right]=\lambda_{i}$
+\end_inset
+
+ לכן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[f\right]_{\beta}=\begin{pmatrix}\lambda_{1} & 0 & 0\\
+0 & \ddots & 0\\
+0 & 0 & \lambda_{n}
+\end{pmatrix}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+ה.
+ תהיינה 
+\begin_inset Formula $\mat{A,B}nn$
+\end_inset
+
+ מטריצות מתחלפות, הוכיחו כי לכל 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ מרחב הוקטורים העצמיים של 
+\begin_inset Formula $A$
+\end_inset
+
+ ששייכים לערך העצמי 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ הוא 
+\begin_inset Formula $B$
+\end_inset
+
+ אינוו'
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+צריך שאם 
+\begin_inset Formula $v\in V_{\lambda}$
+\end_inset
+
+ אז 
+\begin_inset Formula $Bv\in V_{\lambda}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $v\in V_{\lambda}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\begin_inset Formula 
+\begin{align*}
+ & ABv=BAv=B\left(\lambda v\right)=\lambda Bv
+\end{align*}
+
+\end_inset
+
+מכיון ש
+\begin_inset Formula $A\left(Bv\right)=\lambda\left(Bv\right)$
+\end_inset
+
+ גם 
+\begin_inset Formula $Bv\in V_{\lambda}$
+\end_inset
+
+ כנדרש
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נתונות מטריצות מצאו את כל הערכים העצמיים שלהם ולכל ערך עצמי מיצאו את המרחב
+ העצמי שלו
+\end_layout
+
+\begin_layout Subsubsection*
+א.
+ 
+\begin_inset Formula $A=\begin{pmatrix}1 & 0 & 0\\
+0 & 6 & -1\\
+0 & 2 & 3
+\end{pmatrix}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה: 
+\end_layout
+
+\begin_layout Standard
+נכפול את המטריצה ב
+\begin_inset Formula $\begin{pmatrix}x_{1}\\
+x_{2}\\
+x_{3}
+\end{pmatrix}$
+\end_inset
+
+ ונבדוק מתי מתקיימת מערכת 
+\begin_inset Formula 
+\[
+\begin{cases}
+x_{1} & =\lambda x_{1}\\
+6x_{2}-x_{3} & =\lambda x_{2}\\
+2x_{2}+3x_{3} & =\lambda x_{3}
+\end{cases}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+נציב את המטריצה במערכת משוואות הומוגנית 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+ & \begin{pmatrix}1-\lambda & 0 & 0\\
+0 & 6-\lambda & -1\\
+0 & 2 & 3-\lambda
+\end{pmatrix}
+\end{align*}
+
+\end_inset
+
+נניח 
+\begin_inset Formula $6\ne\lambda$
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align*}
+r_{3}-r_{2}\cdot\frac{2}{6-\lambda} & \begin{pmatrix}1-\lambda, & 0, & 0\\
+0, & 6-\lambda, & 0\\
+0, & 0, & 3-\lambda+\frac{2}{6-\lambda}
+\end{pmatrix}\\
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נחשב את הפתרונות הלא טרוויאלים של מערכת המשוואת נוכל א
+\begin_inset Quotes erd
+\end_inset
+
+כ לחשב בנפרד 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+1-\lambda & =0\Rightarrow\lambda_{1}=1
+\end{align*}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align*}
+ & 3-\lambda+\frac{2}{6-\lambda}=0\\
+\Rightarrow & \left(3-\lambda\right)\left(6-\lambda\right)+2=0\\
+= & 18-9\lambda+\lambda^{2}+2=0\\
+= & \lambda^{2}-9\lambda+20=0\\
+= & \left(\lambda-5\right)\left(\lambda-4\right)=0\\
+\Rightarrow & \lambda_{2}=4,\lambda_{3}=5
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציב את המספרים במטריצה ונראה את המרחבים היוצאים ממנו
+\end_layout
+
+\begin_layout Subsubsection*
+ב.
+ 
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $3$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+תהי 
+\begin_inset Formula $\mat Ann$
+\end_inset
+
+ מטריצה משולשית עליונה, הוכיחו כי כל 
+\begin_inset Formula $a_{ii}$
+\end_inset
+
+ הוא ערך עצמי של 
+\begin_inset Formula $A$
+\end_inset
+
+ וכל ערך עצמי של 
+\begin_inset Formula $A$
+\end_inset
+
+ שווה ל
+\begin_inset Formula $a_{jj}$
+\end_inset
+
+ כלשהוא
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+הוכחנו בליניארית 
+\begin_inset Formula $1$
+\end_inset
+
+ שהדטרמיננטה של מטריצה משולשית היא מכפלת האברים באלכסון.
+ 
+\end_layout
+
+\begin_layout Standard
+לפי מה שהוכחנו בשיעור מרכיבי הפולינום האופייני מהווים ערכים עצמיים 
+\end_layout
+
+\begin_layout Standard
+נחשב את הפולינום האופייני 
+\begin_inset Formula 
+\[
+\det\left(A-\id\lambda\right)=\left(a_{11}-\lambda\right)....\left(a_{nn}-\lambda\right)
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+שורשי הפולינום הם 
+\begin_inset Formula $a_{11}...,a_{nn}$
+\end_inset
+
+ כלומר הם מהווים ערכים עצמיים 
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+יהי 
+\begin_inset Formula $V$
+\end_inset
+
+ מרחב וקטורי עם בסיס 
+\begin_inset Formula $\left(v_{1},v_{2}\right)$
+\end_inset
+
+ נתבונן באופרטור 
+\begin_inset Formula $f$
+\end_inset
+
+ המוגדר בעזרת הדרישות 
+\begin_inset Formula $f\left(v_{1}\right)=v_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $f\left(v_{2}\right)=v_{1}+v_{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+א.
+ הסבירו למה קיים אופרטור כזה?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+האופרטור המוגדר ע
+\begin_inset Quotes erd
+\end_inset
+
+י 
+\begin_inset Formula 
+\[
+\left[f\right]_{\beta}=\begin{pmatrix}1 & 1\\
+0 & 1
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+ב.
+ הוכיחו כי 
+\begin_inset Formula $\sp{v_{1}}$
+\end_inset
+
+ הוא תת מרחב 
+\begin_inset Formula $f$
+\end_inset
+
+ אנוו' של 
+\begin_inset Formula $V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $v\in\sp{v_{1}}$
+\end_inset
+
+, 
+\begin_inset Formula $v=av_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+לפי הגדרת העתקה ליניארית 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(v\right)=f\left(av_{1}\right)=af\left(v_{1}\right)\in\sp{v_{1}}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+ג.
+ הוכיחו שלא קיים תת מרחב 
+\begin_inset Formula $f$
+\end_inset
+
+ אנוו' של 
+\begin_inset Formula $U$
+\end_inset
+
+ כך שיתקיים 
+\begin_inset Formula $V=\sp{v_{1}}\oplus U$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיים תת מרחב 
+\begin_inset Formula $U$
+\end_inset
+
+ המהווה סכום ישר, אזי 
+\begin_inset Formula $\dim U=1$
+\end_inset
+
+ לפי מה שלמדנו בשיעור.
+ מרידוקציה 
+\begin_inset Formula $v_{2}\in U$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $U=\sp{v_{2}}$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $f\left(v_{2}\right)=v_{1}+v_{2}\notin U$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+א.
+ יהיו 
+\begin_inset Formula $U,W,Z$
+\end_inset
+
+ תתי מרחבים של 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ הוכיחו כי סכום ישר אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $U\cap W=\left\{ 0\right\} $
+\end_inset
+
+ וגם 
+\begin_inset Formula $\left\{ U+W\right\} \cap Z=\left\{ 0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $U,W,Z$
+\end_inset
+
+ סכום ישר 
+\end_layout
+
+\begin_layout Standard
+אזי לכל 
+\begin_inset Formula $u,w,z$
+\end_inset
+
+ מתוך 
+\begin_inset Formula $U,W,Z$
+\end_inset
+
+ בהתאמה 
+\begin_inset Formula $au+bw+cz=0$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ 
+\begin_inset Formula $a,b,c=0$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $\left\{ u,w,z\right\} $
+\end_inset
+
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ל
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה קיים 
+\begin_inset Formula $v\in\left\{ U+W\right\} \cap Z$
+\end_inset
+
+ או 
+\begin_inset Formula $v\in U\cap W$
+\end_inset
+
+ אזי 
+\begin_inset Formula $\left\{ u,w,z\right\} $
+\end_inset
+
+ ת
+\begin_inset Quotes erd
+\end_inset
+
+ל בסתירה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $U\cap W=\left\{ 0\right\} $
+\end_inset
+
+ וגם 
+\begin_inset Formula $\left\{ U+W\right\} \cap Z=\left\{ 0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+צריך להוכיח שלכל 
+\begin_inset Formula $u,w,z$
+\end_inset
+
+ מתוך 
+\begin_inset Formula $U,W,Z$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $a,b,c=0\Leftrightarrow au+bw+cz=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+יהיו 
+\begin_inset Formula $u,w,z$
+\end_inset
+
+ מתוך 
+\begin_inset Formula $U,W,Z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבנה את הקבוצה 
+\begin_inset Formula $\left\{ u,w,z\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+U\cap W=\left\{ 0\right\} \Rightarrow u\notin\sp w
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כיון ש
+\begin_inset Formula $\sp w\in W$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וכן 
+\begin_inset Formula 
+\[
+\left\{ U+W\right\} \cap Z=\left\{ 0\right\} \Rightarrow z\notin\sp{w,u}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי משפט בליניארית 
+\begin_inset Formula $1$
+\end_inset
+
+ גם 
+\begin_inset Formula $\left\{ u,w,z\right\} $
+\end_inset
+
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ל
+\end_layout
+
+\begin_layout Standard
+אזי 
+\begin_inset Formula $a,b,c=0\Leftrightarrow au+bw+cz=0$
+\end_inset
+
+ כנדרש.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+ב.
+ יהיו 
+\begin_inset Formula $U_{1}...,U_{k}$
+\end_inset
+
+ תתי מרחבים של 
+\begin_inset Formula $V$
+\end_inset
+
+ הוכיחו כי 
+\begin_inset Formula $U_{1}...\oplus U_{k}=V$
+\end_inset
+
+ אמ
+\begin_inset Quotes erd
+\end_inset
+
+מ כל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ אפשר לכתוב בצורה יחידה 
+\begin_inset Formula $v_{1}...+v_{k}=v$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כך ש
+\begin_inset Formula $v_{i}\in V_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח 
+\begin_inset Formula $U_{1}...\oplus U_{k}=V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $\left\{ u_{i,1}...,u_{i,l}\right\} $
+\end_inset
+
+ בסיס של 
+\begin_inset Formula $U_{i}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in\left[k\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $\left\{ u_{1,1}...,u_{1,l_{1}}\right\} ...\cup\left\{ u_{k,1}....,u_{k,l_{k}}\right\} =\beta$
+\end_inset
+
+, לפי טענה מהשיעור 
+\begin_inset Formula $\beta$
+\end_inset
+
+ מהווה בסיס ל
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+יהי 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+נציג את 
+\begin_inset Formula $v$
+\end_inset
+
+ לפי בסיס 
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+v=\left\{ a_{1,1}u_{1,1}...+a_{l_{1}}u_{1,l_{1}}....+a_{k,1}u_{k,1}...+a_{k,l_{k}}u_{k,l_{k}}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבץ את הקוטורים מאותו המרחב 
+\begin_inset Formula $a_{1,1}u_{1,1}...+a_{l_{1}}u_{1,l_{1}}=v_{1}\in U_{1},...a_{k,1}u_{k,1}...+a_{k,l_{k}}u_{k,l_{k}}=v_{k}\in U_{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula 
+\[
+v=\left\{ v_{1}....+v_{k}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפי כל בסיס שנקח מ
+\begin_inset Formula $U_{i}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $a_{1,1}u_{1,1}...+a_{l_{1}}u_{1,l_{1}}=v_{1}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+ולכן זאת צורת הצגה יחידה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נניח שכל 
+\begin_inset Formula $v\in V$
+\end_inset
+
+ אפשר לכתוב בצורה יחידה 
+\begin_inset Formula $v_{1}...+v_{k}=v$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $v_{i}\in U_{i}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $i\in\left[k\right]$
+\end_inset
+
+
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $\beta=\left(u_{1}...,u_{k}\right)$
+\end_inset
+
+ כך שכל 
+\begin_inset Formula $u_{i}\in U_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מכיון שקיימת הצגה יחידה ו
+\begin_inset Formula $u_{i}=u_{i}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $u_{i}\in\beta$
+\end_inset
+
+ 
+\begin_inset Formula $u_{i}\notin\beta\backslash\left\{ u_{i}\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+הוכחנו בליניארית 
+\begin_inset Formula $1$
+\end_inset
+
+ שקבוצה כזאת היא בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן מתאפסת רק בצירוף הטרוויאלי.
+\end_layout
+
+\begin_layout Standard
+לפי מה שהוכחנו בשיעור מכיון ש
+\begin_inset Formula $U_{1}..,U_{k}$
+\end_inset
+
+ מקיימים את התנאי הזה הם מהווים סכום ישר
+\end_layout
+
+\begin_layout Subsection*
+שאלה 
+\begin_inset Formula $6$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Formula 
+\[
+L=\left\{ \begin{pmatrix}0 & 0\\
+a & 0
+\end{pmatrix}|a\in\mathbb{F}\right\} ,D=\left\{ \begin{pmatrix}a & 0\\
+0 & b
+\end{pmatrix}|a,b\in\mathbb{F}\right\} ,U=\left\{ \begin{pmatrix}0 & a\\
+0 & 0
+\end{pmatrix}|a\in\mathbb{F}\right\} 
+\]
+
+\end_inset
+
+ הוכיחו כי 
+\begin_inset Formula $U\oplus D\oplus L=V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+תשובה: 
+\end_layout
+
+\begin_layout Standard
+נסמן את הבסיסים של 
+\begin_inset Formula $U,D,L$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=\sp{\begin{pmatrix}0 & 0\\
+1 & 0
+\end{pmatrix}},D=\sp{\begin{pmatrix}1 & 0\\
+0 & 0
+\end{pmatrix},\begin{pmatrix}0 & 0\\
+0 & 1
+\end{pmatrix}},U=\sp{\begin{pmatrix}0 & 1\\
+0 & 0
+\end{pmatrix}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הקבוצה 
+\begin_inset Formula $\left(\begin{pmatrix}0 & 0\\
+1 & 0
+\end{pmatrix},\begin{pmatrix}1 & 0\\
+0 & 0
+\end{pmatrix},\begin{pmatrix}0 & 0\\
+0 & 1
+\end{pmatrix},\begin{pmatrix}0 & 1\\
+0 & 0
+\end{pmatrix}\right)$
+\end_inset
+
+ פורשת את 
+\begin_inset Formula $M_{2}\left(\mathbb{F}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+לפי מה שלמדנו בשיעור מכיון שאיחוד הקבוצות פורשת את המרחב הוא מהווה סכום
+ ישר.
+\end_layout
+
+\begin_layout Standard
+כמו כן ניתן לראות שהיא פורשת את 
+\begin_inset Formula $V$
+\end_inset
+
+ כנדרש.
+ 
+\end_layout
+
+\end_body
+\end_document
